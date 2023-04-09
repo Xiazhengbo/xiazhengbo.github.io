@@ -19,23 +19,28 @@
 
 <script class="next-config" data-name="main" type="application/json">{"hostname":"example.com","root":"/","images":"/images","scheme":"Pisces","darkmode":false,"version":"8.15.1","exturl":false,"sidebar":{"position":"left","display":"always","padding":18,"offset":12},"copycode":{"enable":false,"style":null},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"transition":{"menu_item":"fadeInDown","post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"}}</script><script src="/js/config.js"></script>
 
-    <meta property="og:type" content="website">
-<meta property="og:title" content="My Blog">
-<meta property="og:url" content="http://example.com/index.html">
+    <meta name="description" content="mpv快捷键设置方式修改input.conf文件，路径~\mpv\portable_config\input.conf 12345&lt;键位绑定（按键名）&gt;   &lt;具体命令&gt;   # 支持行后注释，区分大小写# 单键示例SPACE   cycle pause   # 切换暂停# 组合键示例Ctrl+a   set aid no   # 禁用音轨  具体设置官方文档 123456">
+<meta property="og:type" content="article">
+<meta property="og:title" content="mpv快捷键默认">
+<meta property="og:url" content="http://example.com/2023/04/09/mpv%E5%BF%AB%E6%8D%B7%E9%94%AE%E9%BB%98%E8%AE%A4/index.html">
 <meta property="og:site_name" content="My Blog">
+<meta property="og:description" content="mpv快捷键设置方式修改input.conf文件，路径~\mpv\portable_config\input.conf 12345&lt;键位绑定（按键名）&gt;   &lt;具体命令&gt;   # 支持行后注释，区分大小写# 单键示例SPACE   cycle pause   # 切换暂停# 组合键示例Ctrl+a   set aid no   # 禁用音轨  具体设置官方文档 123456">
 <meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2023-04-09T06:53:21.000Z">
+<meta property="article:modified_time" content="2023-04-09T07:06:18.554Z">
 <meta property="article:author" content="我">
+<meta property="article:tag" content="mpv">
 <meta name="twitter:card" content="summary">
 
 
-<link rel="canonical" href="http://example.com/">
+<link rel="canonical" href="http://example.com/2023/04/09/mpv%E5%BF%AB%E6%8D%B7%E9%94%AE%E9%BB%98%E8%AE%A4/">
 
 
 
-<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":true,"isPost":false,"lang":"zh-CN","comments":"","permalink":"","path":"index.html","title":""}</script>
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-CN","comments":true,"permalink":"http://example.com/2023/04/09/mpv%E5%BF%AB%E6%8D%B7%E9%94%AE%E9%BB%98%E8%AE%A4/","path":"2023/04/09/mpv快捷键默认/","title":"mpv快捷键默认"}</script>
 
 <script class="next-config" data-name="calendar" type="application/json">""</script>
-<title>My Blog</title>
+<title>mpv快捷键默认 | My Blog</title>
   
 
 
@@ -68,7 +73,7 @@
 
     <a href="/" class="brand" rel="start">
       <i class="logo-line"></i>
-      <h1 class="site-title">My Blog</h1>
+      <p class="site-title">My Blog</p>
       <i class="logo-line"></i>
     </a>
       <p class="site-subtitle" itemprop="description">Hello World</p>
@@ -95,7 +100,7 @@
   
   <aside class="sidebar">
 
-    <div class="sidebar-inner sidebar-overview-active">
+    <div class="sidebar-inner sidebar-nav-active sidebar-toc-active">
       <ul class="sidebar-nav">
         <li class="sidebar-nav-toc">
           文章目录
@@ -108,6 +113,7 @@
       <div class="sidebar-panel-container">
         <!--noindex-->
         <div class="post-toc-wrap sidebar-panel">
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#mpv%E5%BF%AB%E6%8D%B7%E9%94%AE"><span class="nav-number">1.</span> <span class="nav-text">mpv快捷键</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E8%AE%BE%E7%BD%AE%E6%96%B9%E5%BC%8F"><span class="nav-number">1.1.</span> <span class="nav-text">设置方式</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%85%B7%E4%BD%93%E8%AE%BE%E7%BD%AE"><span class="nav-number">1.2.</span> <span class="nav-text">具体设置</span></a></li></ol></li></ol></div>
         </div>
         <!--/noindex-->
 
@@ -149,16 +155,17 @@
 
     </div>
 
-    <div class="main-inner index posts-expand">
+    <div class="main-inner post posts-expand">
 
-    
+
+  
 
 
 <div class="post-block">
   
   
 
-  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="zh-CN">
     <link itemprop="mainEntityOfPage" href="http://example.com/2023/04/09/mpv%E5%BF%AB%E6%8D%B7%E9%94%AE%E9%BB%98%E8%AE%A4/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -172,13 +179,13 @@
     </span>
 
     <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
-      <meta itemprop="name" content="undefined | My Blog">
+      <meta itemprop="name" content="mpv快捷键默认 | My Blog">
       <meta itemprop="description" content="">
     </span>
       <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          <a href="/2023/04/09/mpv%E5%BF%AB%E6%8D%B7%E9%94%AE%E9%BB%98%E8%AE%A4/" class="post-title-link" itemprop="url">mpv快捷键默认</a>
-        </h2>
+        <h1 class="post-title" itemprop="name headline">
+          mpv快捷键默认
+        </h1>
 
         <div class="post-meta-container">
           <div class="post-meta">
@@ -211,12 +218,11 @@
     
     
     <div class="post-body" itemprop="articleBody">
-          <h1 id="mpv快捷键"><a href="#mpv快捷键" class="headerlink" title="mpv快捷键"></a>mpv快捷键</h1><h2 id="设置方式"><a href="#设置方式" class="headerlink" title="设置方式"></a>设置方式</h2><p>修改<code>input.conf</code>文件，路径<code>~\mpv\portable_config\input.conf</code></p>
+        <h1 id="mpv快捷键"><a href="#mpv快捷键" class="headerlink" title="mpv快捷键"></a>mpv快捷键</h1><h2 id="设置方式"><a href="#设置方式" class="headerlink" title="设置方式"></a>设置方式</h2><p>修改<code>input.conf</code>文件，路径<code>~\mpv\portable_config\input.conf</code></p>
 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">&lt;键位绑定（按键名）&gt;   &lt;具体命令&gt;   # 支持行后注释，区分大小写</span><br><span class="line"># 单键示例</span><br><span class="line">SPACE   cycle pause   # 切换暂停</span><br><span class="line"># 组合键示例</span><br><span class="line">Ctrl+a   set aid no   # 禁用音轨</span><br></pre></td></tr></table></figure>
 
 <h2 id="具体设置"><a href="#具体设置" class="headerlink" title="具体设置"></a>具体设置</h2><p><a target="_blank" rel="noopener" href="https://github.com/mpv-player/mpv/blob/master/etc/input.conf">官方文档</a></p>
 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br><span class="line">79</span><br><span class="line">80</span><br><span class="line">81</span><br><span class="line">82</span><br><span class="line">83</span><br><span class="line">84</span><br><span class="line">85</span><br><span class="line">86</span><br><span class="line">87</span><br><span class="line">88</span><br><span class="line">89</span><br><span class="line">90</span><br><span class="line">91</span><br><span class="line">92</span><br><span class="line">93</span><br><span class="line">94</span><br><span class="line">95</span><br><span class="line">96</span><br><span class="line">97</span><br><span class="line">98</span><br><span class="line">99</span><br><span class="line">100</span><br><span class="line">101</span><br><span class="line">102</span><br><span class="line">103</span><br><span class="line">104</span><br><span class="line">105</span><br><span class="line">106</span><br><span class="line">107</span><br><span class="line">108</span><br><span class="line">109</span><br><span class="line">110</span><br><span class="line">111</span><br><span class="line">112</span><br><span class="line">113</span><br><span class="line">114</span><br><span class="line">115</span><br><span class="line">116</span><br><span class="line">117</span><br><span class="line">118</span><br><span class="line">119</span><br><span class="line">120</span><br><span class="line">121</span><br><span class="line">122</span><br><span class="line">123</span><br><span class="line">124</span><br><span class="line">125</span><br><span class="line">126</span><br><span class="line">127</span><br><span class="line">128</span><br><span class="line">129</span><br><span class="line">130</span><br><span class="line">131</span><br><span class="line">132</span><br><span class="line">133</span><br><span class="line">134</span><br><span class="line">135</span><br><span class="line">136</span><br><span class="line">137</span><br><span class="line">138</span><br><span class="line">139</span><br><span class="line">140</span><br><span class="line">141</span><br><span class="line">142</span><br><span class="line">143</span><br><span class="line">144</span><br><span class="line">145</span><br><span class="line">146</span><br><span class="line">147</span><br><span class="line">148</span><br><span class="line">149</span><br><span class="line">150</span><br><span class="line">151</span><br><span class="line">152</span><br><span class="line">153</span><br><span class="line">154</span><br><span class="line">155</span><br><span class="line">156</span><br><span class="line">157</span><br><span class="line">158</span><br><span class="line">159</span><br><span class="line">160</span><br><span class="line">161</span><br><span class="line">162</span><br><span class="line">163</span><br><span class="line">164</span><br><span class="line">165</span><br><span class="line">166</span><br><span class="line">167</span><br><span class="line">168</span><br><span class="line">169</span><br><span class="line">170</span><br><span class="line">171</span><br><span class="line">172</span><br><span class="line">173</span><br><span class="line">174</span><br><span class="line">175</span><br><span class="line">176</span><br><span class="line">177</span><br><span class="line">178</span><br><span class="line">179</span><br><span class="line">180</span><br></pre></td><td class="code"><pre><span class="line"># mpv keybindings</span><br><span class="line">#</span><br><span class="line"># Location of user-defined bindings: ~/.config/mpv/input.conf</span><br><span class="line">#</span><br><span class="line"># Lines starting with # are comments. Use SHARP to assign the # key.</span><br><span class="line"># Copy this file and uncomment and edit the bindings you want to change.</span><br><span class="line">#</span><br><span class="line"># List of commands and further details: DOCS/man/input.rst</span><br><span class="line"># List of special keys: --input-keylist</span><br><span class="line"># Keybindings testing mode: mpv --input-test --force-window --idle</span><br><span class="line">#</span><br><span class="line"># Use &#x27;ignore&#x27; to unbind a key fully (e.g. &#x27;ctrl+a ignore&#x27;).</span><br><span class="line">#</span><br><span class="line"># Strings need to be quoted and escaped:</span><br><span class="line">#   KEY show-text &quot;This is a single backslash: \\ and a quote: \&quot; !&quot;</span><br><span class="line">#</span><br><span class="line"># You can use modifier-key combinations like Shift+Left or Ctrl+Alt+x with</span><br><span class="line"># the modifiers Shift, Ctrl, Alt and Meta (may not work on the terminal).</span><br><span class="line">#</span><br><span class="line"># The default keybindings are hardcoded into the mpv binary.</span><br><span class="line"># You can disable them completely with: --no-input-default-bindings</span><br><span class="line"></span><br><span class="line"># Developer note:</span><br><span class="line"># On compilation, this file is baked into the mpv binary, and all lines are</span><br><span class="line"># uncommented (unless &#x27;#&#x27; is followed by a space) - thus this file defines the</span><br><span class="line"># default key bindings.</span><br><span class="line"></span><br><span class="line"># If this is enabled, treat all the following bindings as default.</span><br><span class="line">#default-bindings start</span><br><span class="line"></span><br><span class="line">#MBTN_LEFT     ignore              # don&#x27;t do anything</span><br><span class="line">#MBTN_LEFT_DBL cycle fullscreen    # toggle fullscreen</span><br><span class="line">#MBTN_RIGHT    cycle pause         # toggle pause/playback mode</span><br><span class="line">#MBTN_BACK     playlist-prev       # skip to the previous file</span><br><span class="line">#MBTN_FORWARD  playlist-next       # skip to the next file</span><br><span class="line"></span><br><span class="line"># Mouse wheels, touchpad or other input devices that have axes</span><br><span class="line"># if the input devices supports precise scrolling it will also scale the</span><br><span class="line"># numeric value accordingly</span><br><span class="line">#WHEEL_UP      seek 10          # seek 10 seconds forward</span><br><span class="line">#WHEEL_DOWN    seek -10         # seek 10 seconds backward</span><br><span class="line">#WHEEL_LEFT    add volume -2</span><br><span class="line">#WHEEL_RIGHT   add volume 2</span><br><span class="line"></span><br><span class="line">## Seek units are in seconds, but note that these are limited by keyframes</span><br><span class="line">#RIGHT seek  5                          # seek 5 seconds forward</span><br><span class="line">#LEFT  seek -5                          # seek 5 seconds backward</span><br><span class="line">#UP    seek  60                         # seek 1 minute forward</span><br><span class="line">#DOWN  seek -60                         # seek 1 minute backward</span><br><span class="line"># Do smaller, always exact (non-keyframe-limited), seeks with shift.</span><br><span class="line"># Don&#x27;t show them on the OSD (no-osd).</span><br><span class="line">#Shift+RIGHT no-osd seek  1 exact       # seek exactly 1 second forward</span><br><span class="line">#Shift+LEFT  no-osd seek -1 exact       # seek exactly 1 second backward</span><br><span class="line">#Shift+UP    no-osd seek  5 exact       # seek exactly 5 seconds forward</span><br><span class="line">#Shift+DOWN  no-osd seek -5 exact       # seek exactly 5 seconds backward</span><br><span class="line">#Ctrl+LEFT   no-osd sub-seek -1         # seek to the previous subtitle</span><br><span class="line">#Ctrl+RIGHT  no-osd sub-seek  1         # seek to the next subtitle</span><br><span class="line">#Ctrl+Shift+LEFT sub-step -1            # change subtitle timing such that the previous subtitle is displayed</span><br><span class="line">#Ctrl+Shift+RIGHT sub-step 1            # change subtitle timing such that the next subtitle is displayed</span><br><span class="line">#Alt+left  add video-pan-x  0.1         # move the video right</span><br><span class="line">#Alt+right add video-pan-x -0.1         # move the video left</span><br><span class="line">#Alt+up    add video-pan-y  0.1         # move the video down</span><br><span class="line">#Alt+down  add video-pan-y -0.1         # move the video up</span><br><span class="line">#Alt++     add video-zoom   0.1         # zoom in</span><br><span class="line">#Alt+-     add video-zoom  -0.1         # zoom out</span><br><span class="line">#Alt+BS set video-zoom 0 ; set video-pan-x 0 ; set video-pan-y 0 # reset zoom and pan settings</span><br><span class="line">#PGUP add chapter 1                     # seek to the next chapter</span><br><span class="line">#PGDWN add chapter -1                   # seek to the previous chapter</span><br><span class="line">#Shift+PGUP seek 600                    # seek 10 minutes forward</span><br><span class="line">#Shift+PGDWN seek -600                  # seek 10 minutes backward</span><br><span class="line">#[ multiply speed 1/1.1                 # decrease the playback speed</span><br><span class="line">#] multiply speed 1.1                   # increase the playback speed</span><br><span class="line">#&#123; multiply speed 0.5                   # halve the playback speed</span><br><span class="line">#&#125; multiply speed 2.0                   # double the playback speed</span><br><span class="line">#BS set speed 1.0                       # reset the speed to normal</span><br><span class="line">#Shift+BS revert-seek                   # undo the previous (or marked) seek</span><br><span class="line">#Shift+Ctrl+BS revert-seek mark         # mark the position for revert-seek</span><br><span class="line">#q quit</span><br><span class="line">#Q quit-watch-later                     # exit and remember the playback position</span><br><span class="line">#q &#123;encode&#125; quit 4</span><br><span class="line">#ESC set fullscreen no                  # leave fullscreen</span><br><span class="line">#ESC &#123;encode&#125; quit 4</span><br><span class="line">#p cycle pause                          # toggle pause/playback mode</span><br><span class="line">#. frame-step                           # advance one frame and pause</span><br><span class="line">#, frame-back-step                      # go back by one frame and pause</span><br><span class="line">#SPACE cycle pause                      # toggle pause/playback mode</span><br><span class="line">#&gt; playlist-next                        # skip to the next file</span><br><span class="line">#ENTER playlist-next                    # skip to the next file</span><br><span class="line">#&lt; playlist-prev                        # skip to the previous file</span><br><span class="line">#O no-osd cycle-values osd-level 3 1    # toggle displaying the OSD on user interaction or always</span><br><span class="line">#o show-progress                        # show playback progress</span><br><span class="line">#P show-progress                        # show playback progress</span><br><span class="line">#i script-binding stats/display-stats   # display information and statistics</span><br><span class="line">#I script-binding stats/display-stats-toggle # toggle displaying information and statistics</span><br><span class="line">#` script-binding console/enable        # open the console</span><br><span class="line">#z add sub-delay -0.1                   # shift subtitles 100 ms earlier</span><br><span class="line">#Z add sub-delay +0.1                   # delay subtitles by 100 ms</span><br><span class="line">#x add sub-delay +0.1                   # delay subtitles by 100 ms</span><br><span class="line">#ctrl++ add audio-delay 0.100           # change audio/video sync by delaying the audio</span><br><span class="line">#ctrl+- add audio-delay -0.100          # change audio/video sync by shifting the audio earlier</span><br><span class="line">#Shift+g add sub-scale +0.1             # increase the subtitle font size</span><br><span class="line">#Shift+f add sub-scale -0.1             # decrease the subtitle font size</span><br><span class="line">#9 add volume -2</span><br><span class="line">#/ add volume -2</span><br><span class="line">#0 add volume 2</span><br><span class="line">#* add volume 2</span><br><span class="line">#m cycle mute                           # toggle mute</span><br><span class="line">#1 add contrast -1</span><br><span class="line">#2 add contrast 1</span><br><span class="line">#3 add brightness -1</span><br><span class="line">#4 add brightness 1</span><br><span class="line">#5 add gamma -1</span><br><span class="line">#6 add gamma 1</span><br><span class="line">#7 add saturation -1</span><br><span class="line">#8 add saturation 1</span><br><span class="line">#Alt+0 set current-window-scale 0.5     # halve the window size</span><br><span class="line">#Alt+1 set current-window-scale 1.0     # reset the window size</span><br><span class="line">#Alt+2 set current-window-scale 2.0     # double the window size</span><br><span class="line">#d cycle deinterlace                    # toggle the deinterlacing filter</span><br><span class="line">#r add sub-pos -1                       # move subtitles up</span><br><span class="line">#R add sub-pos +1                       # move subtitles down</span><br><span class="line">#t add sub-pos +1                       # move subtitles down</span><br><span class="line">#v cycle sub-visibility                 # hide or show the subtitles</span><br><span class="line">#Alt+v cycle secondary-sub-visibility   # hide or show the secondary subtitles</span><br><span class="line">#V cycle sub-ass-vsfilter-aspect-compat # toggle stretching SSA/ASS subtitles with anamorphic videos to match the historical renderer</span><br><span class="line">#u cycle-values sub-ass-override &quot;force&quot; &quot;no&quot; # toggle overriding SSA/ASS subtitle styles with the normal styles</span><br><span class="line">#j cycle sub                            # switch subtitle track</span><br><span class="line">#J cycle sub down                       # switch subtitle track backwards</span><br><span class="line">#SHARP cycle audio                      # switch audio track</span><br><span class="line">#_ cycle video                          # switch video track</span><br><span class="line">#T cycle ontop                          # toggle placing the video on top of other windows</span><br><span class="line">#f cycle fullscreen                     # toggle fullscreen</span><br><span class="line">#s screenshot                           # take a screenshot of the video in its original resolution with subtitles</span><br><span class="line">#S screenshot video                     # take a screenshot of the video in its original resolution without subtitles</span><br><span class="line">#Ctrl+s screenshot window               # take a screenshot of the window with OSD and subtitles</span><br><span class="line">#Alt+s screenshot each-frame            # automatically screenshot every frame; issue this command again to stop taking screenshots</span><br><span class="line">#w add panscan -0.1                     # decrease panscan</span><br><span class="line">#W add panscan +0.1                     # shrink black bars by cropping the video</span><br><span class="line">#e add panscan +0.1                     # shrink black bars by cropping the video</span><br><span class="line">#A cycle-values video-aspect-override &quot;16:9&quot; &quot;4:3&quot; &quot;2.35:1&quot; &quot;-1&quot; # cycle the video aspect ratio (&quot;-1&quot; is the container aspect)</span><br><span class="line">#POWER quit</span><br><span class="line">#PLAY cycle pause                       # toggle pause/playback mode</span><br><span class="line">#PAUSE cycle pause                      # toggle pause/playback mode</span><br><span class="line">#PLAYPAUSE cycle pause                  # toggle pause/playback mode</span><br><span class="line">#PLAYONLY set pause no                  # unpause</span><br><span class="line">#PAUSEONLY set pause yes                # pause</span><br><span class="line">#STOP quit</span><br><span class="line">#FORWARD seek 60                        # seek 1 minute forward</span><br><span class="line">#REWIND seek -60                        # seek 1 minute backward</span><br><span class="line">#NEXT playlist-next                     # skip to the next file</span><br><span class="line">#PREV playlist-prev                     # skip to the previous file</span><br><span class="line">#VOLUME_UP add volume 2</span><br><span class="line">#VOLUME_DOWN add volume -2</span><br><span class="line">#MUTE cycle mute                        # toggle mute</span><br><span class="line">#CLOSE_WIN quit</span><br><span class="line">#CLOSE_WIN &#123;encode&#125; quit 4</span><br><span class="line">#ctrl+w quit</span><br><span class="line">#E cycle edition                        # switch edition</span><br><span class="line">#l ab-loop                              # set/clear A-B loop points</span><br><span class="line">#L cycle-values loop-file &quot;inf&quot; &quot;no&quot;    # toggle infinite looping</span><br><span class="line">#ctrl+c quit 4</span><br><span class="line">#DEL script-binding osc/visibility      # cycle OSC visibility between never, auto (mouse-move) and always</span><br><span class="line">#ctrl+h cycle-values hwdec &quot;auto&quot; &quot;no&quot;  # toggle hardware decoding</span><br><span class="line">#F8 show-text $&#123;playlist&#125;               # show the playlist</span><br><span class="line">#F9 show-text $&#123;track-list&#125;             # show the list of video, audio and sub tracks</span><br><span class="line"></span><br><span class="line">#</span><br><span class="line"># Legacy bindings (may or may not be removed in the future)</span><br><span class="line">#</span><br><span class="line">#! add chapter -1                       # seek to the previous chapter</span><br><span class="line">#@ add chapter 1                        # seek to the next chapter</span><br><span class="line"></span><br><span class="line">#</span><br><span class="line"># Not assigned by default</span><br><span class="line"># (not an exhaustive list of unbound commands)</span><br><span class="line">#</span><br><span class="line"></span><br><span class="line"># ? cycle sub-forced-only               # toggle DVD forced subs</span><br><span class="line"># ? stop                                # stop playback (quit or enter idle mode)</span><br><span class="line"></span><br></pre></td></tr></table></figure>
-      
     </div>
 
     
@@ -224,96 +230,25 @@
     
 
     <footer class="post-footer">
-        <div class="post-eof"></div>
-      
+          <div class="post-tags">
+              <a href="/tags/mpv/" rel="tag"># mpv</a>
+          </div>
+
+        
+
+          <div class="post-nav">
+            <div class="post-nav-item">
+                <a href="/2023/04/08/%E6%B5%8B%E8%AF%95/" rel="prev" title="正式测试">
+                  <i class="fa fa-chevron-left"></i> 正式测试
+                </a>
+            </div>
+            <div class="post-nav-item">
+            </div>
+          </div>
     </footer>
   </article>
 </div>
 
-
-
-
-    
-
-
-<div class="post-block">
-  
-  
-
-  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
-    <link itemprop="mainEntityOfPage" href="http://example.com/2023/04/08/%E6%B5%8B%E8%AF%95/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="https://s2.loli.net/2023/04/08/9YMISAK3ry1d4jq.jpg">
-      <meta itemprop="name" content="我">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="My Blog">
-      <meta itemprop="description" content="">
-    </span>
-
-    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
-      <meta itemprop="name" content="undefined | My Blog">
-      <meta itemprop="description" content="">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          <a href="/2023/04/08/%E6%B5%8B%E8%AF%95/" class="post-title-link" itemprop="url">正式测试</a>
-        </h2>
-
-        <div class="post-meta-container">
-          <div class="post-meta">
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-calendar"></i>
-      </span>
-      <span class="post-meta-item-text">发表于</span>
-
-      <time title="创建时间：2023-04-08 00:00:00" itemprop="dateCreated datePublished" datetime="2023-04-08T00:00:00+08:00">2023-04-08</time>
-    </span>
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-calendar-check"></i>
-      </span>
-      <span class="post-meta-item-text">更新于</span>
-      <time title="修改时间：2023-04-09 14:54:24" itemprop="dateModified" datetime="2023-04-09T14:54:24+08:00">2023-04-09</time>
-    </span>
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-folder"></i>
-      </span>
-      <span class="post-meta-item-text">分类于</span>
-        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-          <a href="/categories/test/" itemprop="url" rel="index"><span itemprop="name">test</span></a>
-        </span>
-    </span>
-
-  
-</div>
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-          <h1 id="测试"><a href="#测试" class="headerlink" title="测试"></a>测试</h1><h2 id="分类、标签、关于"><a href="#分类、标签、关于" class="headerlink" title="分类、标签、关于"></a>分类、标签、关于</h2><h2 id="图床测试"><a href="#图床测试" class="headerlink" title="图床测试"></a>图床测试</h2><p><img src="https://s2.loli.net/2023/04/06/g5m3iSTf1FGyCO4.jpg" alt="Yomiya"></p>
-
-      
-    </div>
-
-    
-    
-    
-
-    <footer class="post-footer">
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-</div>
 
 
 
